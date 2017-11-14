@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "123364597197",
+    "firebase_url": "https://pubnub-f4246.firebaseio.com",
+    "project_id": "pubnub-f4246",
+    "storage_bucket": "pubnub-f4246.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123364597197:android:8e3d9aa1ead3311d",
+        "android_client_info": {
+          "package_name": "cloudthat.chirag.pubnub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123364597197-e5gohpr2udcrl8k7k11d2e91bnu09j9m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cloudthat.chirag.pubnub",
+            "certificate_hash": "044ff81368457b30f85460be1f924d4bfd1710d4"
+          }
+        },
+        {
+          "client_id": "123364597197-p3gh37r5dbgipoli7nb54hlpv70nv3r7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTeuZvRZfp3KuraT6IjJyrSClbnjgOf28"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123364597197-p3gh37r5dbgipoli7nb54hlpv70nv3r7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

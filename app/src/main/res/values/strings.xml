@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PubNub</string>
+    <string name="default_notification_channel_id">test_channel</string>
+</resources>
