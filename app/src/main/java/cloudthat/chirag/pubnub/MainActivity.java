@@ -26,7 +26,7 @@ import org.json.*;
 import java.util.Arrays;
 
 public class MainActivity extends AppCompatActivity {
-    public static final String PREFS_NAME = "PubNubKeysFile";
+    public static final String PREFS_NAME = "PubNubUserFile";
     public static final String pubKey = "pubKey";
     public static final String subKey = "subKey";
     public static final String nameKey = "nameKey";
@@ -91,9 +91,12 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences sharedPref = this.getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
         Log.i("Preferences", "Bagged SharedPreferences File");
         String pubKey = sharedPref.getString("pubkey","default");
-        String subKey = sharedPref.getString("pubkey","default");
-        Log.i("Preferences", pubKey);
-        Log.i("Preferences", subKey);
+        String subKey = sharedPref.getString("subkey","default");
+        Log.i("Preferences", "Pub Key from preferences: " + sharedPref.getString("pubkey","default"));
+        Log.i("Preferences", "Sub Key from preferences: " + sharedPref.getString("subkey","default"));
+        Log.i("Preferences", String.valueOf(sharedPref.getAll()));
+//        Log.i("Preferences", pubKey);
+//        Log.i("Preferences", subKey);
         pnConfiguration.setPublishKey(pubKey);
         pnConfiguration.setSubscribeKey(subKey);
         PubNub pubnub = new PubNub(pnConfiguration);

@@ -10,7 +10,7 @@ import android.util.Log;
 import android.widget.TextView;
 
 public class DisplayMessageActivity extends AppCompatActivity {
-    public static final String PREFS_NAME = "PubNubKeysFile"; //add this to strings.xml
+    public static final String PREFS_NAME = "PubNubUserFile"; //add this to strings.xml
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         Log.i("Android", "Inside second intent");
