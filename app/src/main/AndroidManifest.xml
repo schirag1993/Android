@@ -35,6 +35,9 @@
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
+
+        <activity android:name=".DisplayMessageActivity" />
+        <activity android:name=".PubNubLogin"></activity>
     </application>
 
 </manifest>
