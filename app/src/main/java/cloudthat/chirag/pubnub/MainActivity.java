@@ -95,8 +95,6 @@ public class MainActivity extends AppCompatActivity {
         Log.i("Preferences", "Pub Key from preferences: " + sharedPref.getString("pubkey","default"));
         Log.i("Preferences", "Sub Key from preferences: " + sharedPref.getString("subkey","default"));
         Log.i("Preferences", String.valueOf(sharedPref.getAll()));
-//        Log.i("Preferences", pubKey);
-//        Log.i("Preferences", subKey);
         pnConfiguration.setPublishKey(pubKey);
         pnConfiguration.setSubscribeKey(subKey);
         PubNub pubnub = new PubNub(pnConfiguration);

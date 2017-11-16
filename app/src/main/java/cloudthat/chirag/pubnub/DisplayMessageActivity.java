@@ -16,7 +16,6 @@ public class DisplayMessageActivity extends AppCompatActivity {
         Log.i("Android", "Inside second intent");
         SharedPreferences sharedPref = this.getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
         Log.i("Preferences", "Bagged SharedPreferences File");
-//        String storedKey = sharedPref.getAll().toString();
         String storedKey = sharedPref.getString("pubkey","default");
         Log.i("Preferences", storedKey);
         super.onCreate(savedInstanceState);
